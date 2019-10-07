@@ -6,7 +6,7 @@ public class Tariff {
     int internet;
     boolean internetUnlimited;
     boolean socialNetworkUnlimited;
-    int pricePerMonth;
-    int pricePerDay;
+    int payment;
+    String periodOfPayment;
     boolean internetAbroad;
 }
