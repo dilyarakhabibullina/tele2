@@ -14,16 +14,16 @@ public class Main {
 
 
         Tariff myTalks = new Tariff();
-    id = 2;
-    name = "Мой разговор";
-    minutes = 250;
-    tele2Unlimited = true;
-    internet = 3;
-    internetUnlimited = false;
-    socialNetworkUnlimited = false;
-    pricePerMonth = 190;
-    pricePerDay = 0;
-    internetAbroad = false;
+        id = 2;
+        name = "Мой разговор";
+        minutes = 250;
+        tele2Unlimited = true;
+        internet = 3;
+        internetUnlimited = false;
+        socialNetworkUnlimited = false;
+        pricePerMonth = 190;
+        pricePerDay = 0;
+        internetAbroad = false;
 
         System.out.println(name + "\n" + minutes + " мин.");
         if (tele2Unlimited == true) {

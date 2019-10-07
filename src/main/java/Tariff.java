@@ -9,35 +9,4 @@ public class Tariff {
     int pricePerMonth;
     int pricePerDay;
     boolean internetAbroad;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
