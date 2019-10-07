@@ -24,6 +24,7 @@ public class Main {
         myTalks.periodOfPayment = "в день";
         myTalks.internetAbroad = false;
 
+        
         System.out.println(myOnline.name + "\n" + myOnline.minutes + " мин.");
         if (myOnline.tele2Unlimited == true) {
             System.out.println("+ безлимит на tele2 России");
