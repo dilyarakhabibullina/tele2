@@ -9,7 +9,7 @@ public class Main {
         myOnline.internetUnlimited = false;
         myOnline.socialNetworkUnlimited = true;
         myOnline.payment = 290;
-        myOnline.periodOfPayment = "в месяц";
+        myOnline.periodOfPayment = "в мес.";
         myOnline.internetAbroad = true;
 
         Tariff myTalks = new Tariff();
@@ -24,7 +24,7 @@ public class Main {
         myTalks.periodOfPayment = "в день";
         myTalks.internetAbroad = false;
 
-        
+
         System.out.println(myOnline.name + "\n" + myOnline.minutes + " мин.");
         if (myOnline.tele2Unlimited == true) {
             System.out.println("+ безлимит на tele2 России");
