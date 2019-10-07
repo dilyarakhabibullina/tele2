@@ -1,4 +1,4 @@
-public class Tariffs {
+public class Tariff {
     int id;
     String name;
     int minutes;

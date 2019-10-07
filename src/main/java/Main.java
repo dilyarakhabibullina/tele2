@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Tariffs myOnline = new Tariffs();
+        Tariff myOnline = new Tariff();
         int id = 1;
         String name = "Мой онлайн";
         int minutes = 400;
@@ -13,7 +13,7 @@ public class Main {
         boolean internetAbroad = true;
 
 
-    Tariffs myTalks = new Tariffs();
+        Tariff myTalks = new Tariff();
     id = 2;
     name = "Мой разговор";
     minutes = 250;
